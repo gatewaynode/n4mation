@@ -9,15 +9,15 @@ edition = "2018"
 [dependencies]
 chrono = { version = "0.4.19", features = ["serde"] }
 # markdown = "0.3.0"
-comrak = "0.12.1"
-serde = "1.0.123"
-serde_derive = "1.0.123"
+comrak = "0.11.0"
+serde = "1.0.127"
+serde_derive = "1.0.127"
 
 # Development dependencies
 file_tree = { path="/home/anon/code/file_tree" }
 dotenv = "0.15.0"
 dotenv_codegen = "0.15.0"
-chrono-humanize = "0.1.1"
-serde_json = "1.0.61"
-v_htmlescape = "0.12.0"
-dirs = "3.0.1"
+chrono-humanize = "0.2.1"
+serde_json = "1.0.66"
+v_htmlescape = "0.13.1"
+dirs = "3.0.2"
